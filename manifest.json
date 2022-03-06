@@ -1,0 +1,12 @@
+{
+    "name": "screencap-api-audio-fix",
+    "description": "",
+    "version": "1.0",
+    "manifest_version": 2,
+
+    "background": { "scripts": [ "background.js" ] },
+
+    "web_accessible_resources": [ "audio.js" ],
+
+    "permissions": [ "webNavigation", "<all_urls>" ]
+}
